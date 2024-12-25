@@ -11,15 +11,15 @@ const ShuffleHero = () => {
     <MaxWidthWrapper>
     <section className="w-full px-8 pt-12 flex justify-center items-center gap-8 mx-auto">
       <div className="flex flex-col gap-4 md:gap-6 max-w-lg justify-center items-center text-center">
-        <span className="block mb-4 text-xs md:text-sm text-indigo-500 font-medium">
-          Better every day
-        </span>
-        <h3 className="text-4xl md:text-6xl font-semibold text-zinc-100">
+      <h2 className="text-4xl md:text-8xl font-semibold text-zinc-200">
+          EcoRide
+        </h2>
+        <h3 className="text-4xl md:text-3xl font-semibold text-zinc-100 bg-bg-color rounded-lg">
           Earn Tokens, Ride Green.
         </h3>
-        <p className="text-base md:text-lg text-slate-100 my-4 md:my-6">
-        The blockchain-powered delivery platform that rewards you for every ride. Earn tokens, reduce carbon emissions, and embrace a greener, decentralized future.        </p>
-
+        <p className="text-base md:text-lg text-slate-100">
+        Revolutionizing Rides, One Block at a Time.
+        </p>
         <SplashButton
           onClick={() => router.push("/signin")}
           className="flex items-center gap-2"
